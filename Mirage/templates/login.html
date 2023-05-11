@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <title>Login - Mirage</title>
+</head>
+<body>
+    <header>
+        <center>
+            <img src="{% static 'assets/banner_with_icon.png' %}" class="logo" alt="Logo">
+        </center>
+    </header>
+    <center>
+        <div class="login-box">
+            <h1>Sign In</h1>
+            <form>
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                <center><button type="submit">Login</button></center>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
