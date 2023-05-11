@@ -11,11 +11,11 @@
     max-width: 350px;
 }
 
-.signup-box {
-    margin-top: 15%;
+.login-box {
+    margin-top: 10px;
 }
 
-.signup-box h1 {
+.login-box h1 {
     color: white;
     text-align: center;
     margin-bottom: 20px;
@@ -23,22 +23,22 @@
     font-weight: bold;
 }
 
-.signup-box form {
-    margin: 15%;
+.login-box form {
+    margin: 10%;
     display: flex;
     flex-direction: column;
     max-width: 300px;
 }
-  
-.signup-box input {
+
+.login-box input {
     padding: 10px;
     border: 1px solid #537FE7;
     border-radius: 10px;
     margin-bottom: 10px;
     color: white;
 }
-  
-.signup-box button {
+
+.login-box button {
     padding: 10px;
     background-color: #19376D;
     text-align: center;
@@ -49,8 +49,8 @@
     border-radius: 30px;
     cursor: pointer;
 }
-  
-.signup-box button:hover {
+
+.login-box button:hover {
     background-color: #537FE7;
 }
 
@@ -59,20 +59,22 @@
 
 @media (min-width: 1024px) and (min-height: 600px) {
     .logo {
+        margin-top: 100px;
         max-width: 700px;
     }
 
-    .signup-box {
+    .login-box {
         padding: 0;
         margin: 0;
         zoom: 150%;
     }
     
-    .signup-box h1 {
+    .login-box h1 {
         padding-top: 20px;
     }
 
-    .signup-box form {
+    .login-box form {
         padding-top: 0;
+        margin-top: 30px;
     }
 }
