@@ -38,6 +38,10 @@
     color: white;
 }
 
+.login-box input:focus {
+    background-color: transparent;
+}
+
 .login-box button {
     padding: 10px;
     background-color: #19376D;
