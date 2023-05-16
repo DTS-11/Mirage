@@ -16,12 +16,19 @@
         </center>
     </header>
     <center>
+        <div class="error-box">
+            {% for message in messages %}
+            <h5>{{message}}</h5>
+            {% endfor %}
+        </div>
         <div class="signup-box">
             <h1>Sign Up</h1>
-            <form>
+            <form method="post">
+                {% csrf_token %}
+                <input type="email" name="email" placeholder="Email">
                 <input type="text" name="username" placeholder="Username">
                 <input type="password" name="password" placeholder="Password">
-                <input type="password" name="password" placeholder="Confirm Password">
+                <input type="password" name="confirmpassword" placeholder="Confirm Password">
                 <center><button type="submit">Sign Up</button></center>
             </form>
             <p>Already have an account? <br>

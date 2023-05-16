@@ -16,10 +16,16 @@
         </center>
     </header>
     <center>
+        <div class="error-box">
+            {% for message in messages %}
+            <h5>{{message}}</h5>
+            {% endfor %}
+        </div>
         <div class="login-box">
             <h1>Sign In</h1>
-            <form>
-                <input type="text" name="username" placeholder="Username">
+            <form method="post">
+                {% csrf_token %}
+                <input type="text" name="username" placeholder="Username or Email">
                 <input type="password" name="password" placeholder="Password">
                 <center><button type="submit">Login</button></center>
             </form>
