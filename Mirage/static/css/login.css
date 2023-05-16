@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+.error-box h5 {
+    color: rgb(253, 32, 32);
+    font-family: sans-serif;
+}
+
 .logo {
     margin-top: 10%;
     max-width: 350px;
