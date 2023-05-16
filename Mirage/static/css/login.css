@@ -58,6 +58,17 @@
     background-color: #537FE7;
 }
 
+.login-box p {
+    color: white;
+    font-size: small;
+    font-style: italic;
+}
+
+.login-box a {
+    color: #537FE7;
+    text-decoration: none;
+}
+
 
 
 
@@ -80,5 +91,11 @@
     .login-box form {
         padding-top: 0;
         margin-top: 30px;
+    }
+
+    .login-box p {
+        position: absolute;
+        top: 81%;
+        right: 44%;
     }
 }
