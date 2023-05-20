@@ -3,6 +3,7 @@ Social media app built with Django
 
 
 ## Color palletes used
-Background: #181823\
+Background: #08080c\
 Buttons/Links: #19376D\
-Hover: #537FE7
+Hover: #537FE7\
+Cards: #181823
